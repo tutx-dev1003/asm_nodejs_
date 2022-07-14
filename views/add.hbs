@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add new Demo</title>
+    <style>
+        input{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="./add" method="POST">
+        <input type="text" name="Name" placeholder="Name"> <br>
+        <input type="number" name="Price" placeholder="Price"> <br>
+        <input type="text" name="Description" placeholder="Description"> <br>
+        <input type="text" name="Size" placeholder="Size"> <br>
+        <input type="text" name="Color" placeholder="Color"> <br>
+        <input type="text" name="Image" placeholder="url image"> <br>
+        {{!-- <input type="file" name="Image"> <br> --}}
+        <input type="text" name="CatagoryName" placeholder="CatagoryName"> <br>
+        <input type="submit" value="Add new"/>
+    </form>
+</body>
+</html>
